@@ -1,6 +1,6 @@
-# Back-end Template Model: NestJS (`catalog-service`)
+# Back-end Template Model: NestJS
 
-This document outlines the template model for setting up the back-end service using Node.js, NestJS, and TypeScript.
+This document outlines the template model for setting up a back-end service using Node.js, NestJS, and TypeScript.
 
 ## Technologies & Dependencies
 
@@ -33,7 +33,7 @@ This document outlines the template model for setting up the back-end service us
 ## Project Structure (Core)
 
 ```
-catalog-service/
+<project-root>/
 ├── src/
 │   ├── main.ts
 │   ├── app.module.ts
@@ -56,10 +56,10 @@ catalog-service/
 
 ## Initial Setup Steps
 
-1.  **Clone Repository**:
+1.  **Clone Repository / Navigate to Directory**:
     ```bash
     git clone <repository-url>
-    cd petit-catalog/catalog-service
+    cd <project-directory>
     ```
 2.  **Install Dependencies**:
     ```bash
@@ -77,5 +77,5 @@ catalog-service/
 *   **Back-end Development**: Develop NestJS modules, controllers, and services following modular architecture.
 *   **Testing**: Run tests with `npm run test` or in watch mode with `npm run test:watch`.
 *   **Code Standards**: Run `npm run lint` and `npm run format`.
-*   **API Exposure**: Expose REST endpoints to be consumed by the front-end (`catalog-ui`).
+*   **API Exposure**: Expose REST endpoints to be consumed by client applications / front-ends.
 

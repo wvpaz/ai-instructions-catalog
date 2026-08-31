@@ -1,6 +1,6 @@
-# Front-end Template Model: React / Next.js (`catalog-ui`)
+# Front-end Template Model: React / Next.js
 
-This document outlines the template model for setting up the front-end application using Next.js, React, and TypeScript.
+This document outlines the template model for setting up a front-end application using Next.js, React, and TypeScript.
 
 ## Technologies & Dependencies
 
@@ -34,7 +34,7 @@ This document outlines the template model for setting up the front-end applicati
 ## Project Structure (Core)
 
 ```
-catalog-ui/
+<project-root>/
 ├── app/
 │   ├── layout.tsx
 │   ├── page.tsx
@@ -53,10 +53,10 @@ catalog-ui/
 
 ## Initial Setup Steps
 
-1.  **Clone Repository**:
+1.  **Clone Repository / Navigate to Directory**:
     ```bash
     git clone <repository-url>
-    cd petit-catalog/catalog-ui
+    cd <project-directory>
     ```
 2.  **Install Dependencies**:
     ```bash
@@ -66,12 +66,12 @@ catalog-ui/
     ```bash
     npm run dev
     ```
-4.  **Environment Variables**: Create `.env.local` based on `.env.example` (if provided), configuring necessary environment variables such as API endpoints for connecting to `catalog-service`.
+4.  **Environment Variables**: Create `.env.local` based on `.env.example` (if provided), configuring necessary environment variables such as API endpoints for connecting to back-end services.
 
 ## Development Workflow
 
 *   **Front-end Development**: Develop Next.js pages, layouts, and React components.
 *   **Testing**: Run tests with `npm run test` or in watch mode with `npm run test:watch`.
 *   **Code Standards**: Run `npm run lint` and `npm run format`.
-*   **API Integration**: Consume REST API endpoints provided by the back-end service (`catalog-service`).
+*   **API Integration**: Consume REST API endpoints provided by back-end services.
 
